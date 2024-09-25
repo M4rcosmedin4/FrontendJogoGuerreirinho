@@ -1,0 +1,59 @@
+/* Nav.module.css */
+.navLink::after {
+    display: none;
+  }
+  .navLink {
+    font-size: 27px;
+  }
+
+  .navItem {
+    margin-left: auto;
+  }
+  
+  /* Customização da largura do botão */
+  .navbar {
+    width: auto; /* Ajuste conforme necessário */
+  }
+  
+.dropdown{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.moneyContainer {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre o Money e a imagem */
+}
+
+.dinheiroImg {
+  height: 50px; /* Define a altura da imagem */
+}
+
+.navbar {
+  width: 100%; /* Garante que a navbar use a largura total */
+}
+
+.parte {
+  flex: 1; /* Cada parte ocupa espaço igual */
+}
+
+.bloco {
+  align-items: center; /* Alinha verticalmente os itens */
+}
+
+.bloco p a{
+  padding: 10px;
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+
+.bloco p{
+border-radius: 30px;
+}
+
+.bloco p:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}

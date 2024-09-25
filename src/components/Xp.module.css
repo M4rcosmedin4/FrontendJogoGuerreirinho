@@ -1,0 +1,16 @@
+.xpContainer {
+    display: flex;        /* Faz com que os itens internos fiquem inline */
+    align-items: center;  /* Centraliza verticalmente os itens */
+  }
+  
+  .level {
+    margin-right: 10px;  /* Espaçamento entre o nível e a barra de progresso */
+  }
+  
+  .progressBar {
+    width: 180px; /* Defina a largura da barra de progresso para ajustar ao seu layout */
+    height: 23px;
+    font-size: 15px;
+    margin-bottom: 4px
+  }
+  

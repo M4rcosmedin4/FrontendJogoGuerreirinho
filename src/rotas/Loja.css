@@ -1,0 +1,8 @@
+.menor {
+  display: flex;
+  justify-content: space-between; /* Alinha um item na esquerda e outro na direita */
+  width: 100%; /* Garante que a largura ocupe todo o espaço disponível */
+  padding: 20
+}
+.moeda{width: 30px;}
+  

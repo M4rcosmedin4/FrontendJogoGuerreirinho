@@ -1,0 +1,48 @@
+.armadura-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .armadura-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+
+  .armadura-selector img{
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  
+  .armadura {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .armadura.selected {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .card {
+    margin: 0 auto; /* Centraliza o card horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 300px; /* Define uma largura máxima para o card */
+    height: 200px; /* Define uma largura máxima para o card */
+    background-color: #f8f9fa; /* Cor de fundo do card (opcional) */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra para um efeito visual */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o conteúdo do card */
+  }
+  
+  .card-body {
+    padding: 10px; /* Adiciona espaçamento interno dentro do corpo do card */
+  }
+  

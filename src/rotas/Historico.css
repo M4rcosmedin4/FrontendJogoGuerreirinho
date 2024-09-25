@@ -1,0 +1,110 @@
+/* Centraliza o container principal no meio da tela */
+.main-container-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+  }
+  
+  /* Alinha os botões um ao lado do outro */
+  .button-container-h {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do container */
+  .container-h {
+    height: 700px;
+    overflow-y: scroll;
+    width: 700px;
+  }
+  
+  /* Estilo das pessoas */
+  .person {
+    border-bottom: 1px solid #ccc;
+    margin-left: 40px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+  }
+  .container-h::-webkit-scrollbar{
+    width: 1px;
+  }
+  p,span{
+    margin: 3px;
+    padding: 0;
+  }
+  .juntar{
+    display: flex;
+    justify-content: space-between;
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color:  dodgerblue;
+  }
+  input{
+    
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+  }
+#btn-Home{
+ position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+#btn-Home img{
+  width:50px ;
+}
+.NomeResultado{
+  display: flex;
+  justify-content: space-between;
+}
+.NomeResultado p{
+ margin-top: 18px;
+}
+.NomeResultado h4{
+  font-size: 30px;
+}
+.score{
+display: flex;
+justify-content: space-between;
+}
+#best{
+  width: 100px;
+  
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li.active a {
+  font-weight: bold;
+}
+
+.pagination a {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background-color: #f0f0f0;
+}
